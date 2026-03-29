@@ -30,9 +30,18 @@
 - About & Interests
 - Education
 - Experience
+- Projects
 - Skills
 - Resume (PDF)
 - Contact
+
+## Projects
+
+| Project | URL | Description |
+|---------|-----|-------------|
+| Sweet Night | [sweetnight.in](https://sweetnight.in) | Full-stack web app built with PHP Laravel & MySQL on AWS |
+| Sweet Night Admin | [sn.sweetnight.in](https://sn.sweetnight.in) | Admin panel with RBAC for managing the Sweet Night platform |
+| hTunnel | [github.com/hardeep-97/hTunnel](https://github.com/hardeep-97/hTunnel) | Node.js tunneling tool to expose local servers to the internet |
 
 ## Tech Stack
 

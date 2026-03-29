@@ -731,6 +731,169 @@ section .container {
 }
 
 /*--------------------------------------------------------------
+# Projects Section
+--------------------------------------------------------------*/
+.projects-section {
+  padding: 60px 0;
+}
+
+.project-card {
+  background: #09203a;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  height: 100%;
+  border: 1px solid rgba(255,255,255,0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  border-color: #ec5252;
+  box-shadow: 0 12px 35px rgba(236, 82, 82, 0.18);
+}
+
+.project-card-img {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.project-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.project-card:hover .project-card-img img {
+  transform: scale(1.06);
+}
+
+.project-carousel .owl-dots {
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.project-carousel .owl-dot span {
+  width: 6px;
+  height: 6px;
+  background: rgba(255,255,255,0.4);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 3px;
+  transition: background 0.2s;
+}
+
+.project-carousel .owl-dot.active span {
+  background: #ec5252;
+}
+
+.project-card-placeholder {
+  background: linear-gradient(135deg, #042b56 0%, #0a3570 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-card-placeholder i {
+  font-size: 64px;
+  color: #ec5252;
+  opacity: 0.6;
+}
+
+.project-card-body {
+  padding: 24px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.project-tags .tag {
+  background: rgba(236, 82, 82, 0.12);
+  color: #ec5252;
+  border: 1px solid rgba(236, 82, 82, 0.3);
+  border-radius: 20px;
+  padding: 2px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.project-card-body h4 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.project-year {
+  font-size: 12px;
+  font-weight: 500;
+  color: #8ba8c4;
+  background: rgba(139, 168, 196, 0.12);
+  border: 1px solid rgba(139, 168, 196, 0.25);
+  border-radius: 4px;
+  padding: 1px 7px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.3px;
+}
+
+.project-card-body p {
+  color: #8ba8c4;
+  font-size: 14px;
+  line-height: 1.65;
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.project-links {
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
+  flex-wrap: wrap;
+}
+
+.btn-project {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+  background: transparent;
+  border: 1px solid #ec5252;
+  color: #ec5252 !important;
+}
+
+.btn-project:hover {
+  background: #ec5252;
+  color: #fff !important;
+}
+
+.btn-project i {
+  font-size: 16px;
+}
+
+/*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
