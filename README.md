@@ -7,31 +7,21 @@
 [![LinkedIn](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/hardeep-shiyani)
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-### Website Preview
-
-#### Home Page
-
-<img src="website_images/HomePage.gif" width="900">
-
-#### About Page
-
-<img src="website_images/AboutPage.png" width="900">
-
 ## Features
 
-- Fully Responsive
-- Valid HTML5 & CSS3
-- Typing animation using `Typed.js`
-- Google Analytics integrated
+- Responsive, accessible single-page portfolio
+- Evidence-first experience and project presentation
+- Keyboard navigation and reduced-motion support
+- Google Analytics integration
+- No build step or JavaScript framework required
 
 ## Sections
 
 - Home
-- About & Interests
-- Education
 - Experience
 - Projects
-- Skills
+- Expertise
+- About
 - Resume (PDF)
 - Contact
 
@@ -41,12 +31,11 @@
 |---------|-----|-------------|
 | Sweet Night | [sweetnight.in](https://sweetnight.in) | Full-stack web app built with PHP Laravel & MySQL on AWS |
 | Sweet Night Admin | [sn.sweetnight.in](https://sn.sweetnight.in) | Admin panel with RBAC for managing the Sweet Night platform |
-| hTunnel | [github.com/hardeep-97/hTunnel](https://github.com/hardeep-97/hTunnel) | Node.js tunneling tool to expose local servers to the internet |
+| hTunnel | [github.com/hardeep-97/hTunnel](https://github.com/hardeep-97/hTunnel) | Self-hosted HTTP tunnel with a Go gateway and cross-platform agent |
 
 ## Tech Stack
 
-- **HTML5 / CSS3 / JavaScript** — static site, no build step required
-- **Bootstrap** — responsive layout
+- **HTML5 / CSS3 / JavaScript** — custom responsive interface with no build step
 - **AWS / Custom Domain** — hosted at `hardeepshiyani.in`
 - **Google Analytics** — via gtag.js & GTM
 
@@ -68,4 +57,3 @@ To deploy, push to your hosting provider or use GitHub Pages with a custom domai
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Template: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
